@@ -83,7 +83,7 @@ section{
 /* -----homeee------- */
 
 
-/* ------about me------- */
+/* ------about us------- */
 
 #about-header{
 
@@ -118,7 +118,7 @@ section{
 /* ------about me------- */
 
 
-/* ----------experiences------ */
+/* ----------provide------ */
 
 #my-exp{
     margin-left: 20vw;
@@ -127,14 +127,14 @@ section{
 ul{
     margin-left: 20vw;
 }
-/* ----------experiences------  */
+/* ----------provide------  */
 
-/* --------------skills---------- */
-#skills h1{
+/* --------------rules---------- */
+#rules h1{
    margin-left:45vw;
    padding-top: 7vh;
 }
-#skills-paragraph{
+#rules-paragraph{
     margin-left: 20vw;
     margin-right: 20vw;
 }
@@ -153,7 +153,7 @@ progress::-webkit-progress-value {
     margin-left:4vw;
 
 }
-/* --------------skills---------- */
+/* --------------rules---------- */
 
 /* ---------academic path--------- */
 #academic-path h1{
