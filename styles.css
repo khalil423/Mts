@@ -19,8 +19,7 @@ section{
 #nav-bar {
     padding-top:1vh ;
     display: flex;
-    justify-content: flex-end;
-    justify-content:end;
+    justify-content: space-around;
     align-items: center;
     
     height:7vh;
@@ -59,7 +58,7 @@ section{
     justify-content: center;
     flex-direction: column;
     font-size: 30px;
-    margin:0
+    margin:0;
     
 }
 #text{
@@ -89,7 +88,7 @@ section{
 /* ------about us------- */
 
 #about-header{
-
+    padding-left: 10vh;
     padding-top:15vh;
 }
 
@@ -195,6 +194,10 @@ progress::-webkit-progress-value {
 }
 /* ---------contact----------- */
 
-
-
-
+#about-paragraph{
+    display:flex;
+    flex-wrap: wrap;
+    width:50%;
+    padding-top: 15vh;
+    padding-left: 10vh;
+}
