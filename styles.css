@@ -32,7 +32,7 @@ section{
     margin-right: 1vw;
 }
 #nav-bar a:hover{
-    background-color:#ce05fb ;
+    background-color:#8c90af ;
     color:white;
 }
 #left-element{
@@ -40,7 +40,7 @@ section{
     padding-left: 2vw;
 }
 .colored{
-    color:#ce05fb;
+    color:#8c90af;
     font-weight: bold;;
 }
 /* ---------naaavv------ */
@@ -76,7 +76,7 @@ section{
     padding-right: 2vh;
 }
 #button:hover{
-    background-color: #ce05fb;
+    background-color: #8c90af;
     color:white;
     font-weight: bold;
 }
@@ -144,10 +144,10 @@ ul{
 progress{
     width:50vw;
     height:8px;
-    background-color: #ce05fb;
+    background-color: #8c90af;
 }
 progress::-webkit-progress-value {
-    background-color: #ce05fb;
+    background-color: #8c90af;
   }
 #skills div{
     margin-left:4vw;
