@@ -24,7 +24,7 @@ section{
     padding-top:1vh ;
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: centera;
     
     height:7vh;
 }
@@ -127,17 +127,17 @@ section{
 /* ----------provide------ */
 
 #my-exp{
-    margin-left: 20vw;
-    padding-top: 30vh;
+    margin-left: 43%;
+    margin-bottom: 5%;
 }
 ul{
-    margin-left: 20vw;
+    margin-left: 2vw;
 }
 /* ----------provide------  */
 
 /* --------------rules---------- */
 #rules h1{
-   margin-left:45vw;
+   margin-left:40vw;
    padding-top: 7vh;
 }
 #rules-paragraph{
@@ -208,3 +208,4 @@ progress::-webkit-progress-value {
 .t{
     padding-top: 50px;
 }
+
