@@ -2,6 +2,10 @@
     font-family: Titillium;
     src: url(fonts/Rubik/Rubik-VariableFont_wght.ttf);
 }
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
 html, body {
     font-family: Titillium;
     background-color: white;
@@ -40,7 +44,8 @@ section{
 }
 .colored{
     color:#8c90af;
-    font-weight: bold;;
+    font-weight: bold;
+    display:inline;
 }
 /* ---------naaavv------ */
 
@@ -87,30 +92,36 @@ section{
 
 /* ------about us------- */
 
+
 #about-header{
     padding-left: 10vh;
-    padding-top:15vh;
+    padding-top:150vh;
+}
+#about-paragraph{
+    display:flex;
+    flex-wrap: wrap;
+    padding-top: 10vh;
+    margin-left: 2vh;
+    width:50vw
 }
 
 #parent{
+    margin-top: 5vh;;
     display: flex;
     flex-direction: row;
 }
-#child  {
-    display: flex;
-    flex-direction: column;
-}
 
-#about-img{
-    padding:2vw;
+
+.about-img{
     margin-left:5vh;
     width: 30vw;
     height: 50vh;
     border-radius: 10%;
+    border: solid 5px;
 }
 
 
-/* ------about me------- */
+/* ------about us------- */
 
 
 /* ----------provide------ */
@@ -194,9 +205,6 @@ progress::-webkit-progress-value {
 }
 /* ---------contact----------- */
 
-#about-paragraph{
-    display:flex;
-    flex-wrap: wrap;
-    padding-top: 10vh;
-    padding-left: 10vh;
+.t{
+    padding-top: 50px;
 }
