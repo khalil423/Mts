@@ -136,8 +136,11 @@ section{
 /* ------about us------- */
 
 
-/* ----------provide------ */
+/* ----------why-us------ */
 
+#why-us{
+    display: flex;
+}
 #my-exp{
     margin-left: 43%;
     margin-bottom: 5%;
@@ -145,7 +148,7 @@ section{
 ul{
     margin-left: 2vw;
 }
-/* ----------provide------  */
+/* ----------why-us------  */
 
 /* --------------rules---------- */
 #rules h1{
