@@ -94,7 +94,7 @@ section{
 
 
 #about-header{
-    margin-top: 100px;
+    margin-top: 10px;
 
     width: fit-content;
     color: rgba(103, 27, 138, 0.489);
@@ -140,13 +140,24 @@ section{
 
 #why-us{
     display: flex;
+    color: rgba(103, 27, 138, 0.889);
+    background-color: rgba(255, 255, 255,0.6);
 }
 #my-exp{
-    margin-left: 43%;
-    margin-bottom: 5%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-left: 40%;
+    height: fit-content;
+    width: fit-content;
+    background-color: rgba(255, 255, 255,0.6);
 }
 ul{
     margin-left: 2vw;
+}
+.qcolored {
+    margin:5px;
+    font-weight:bold;
 }
 /* ----------why-us------  */
 
