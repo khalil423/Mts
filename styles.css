@@ -98,11 +98,12 @@ section{
     padding-top:0vh;
 }
 #about-paragraph{
-    display:flex;
-    flex-wrap: wrap;
-    padding-top: 0vh;
-    margin-left: 2vh;
-    width:50vw
+    
+    padding-left: 2vh;
+    font-weight: 2vh;
+    font-size: 4vh;
+    font-family: Titillium;
+    color: rgb(127, 63, 187);
 }
 
 #parent{
@@ -110,14 +111,13 @@ section{
     display: flex;
     flex-direction: row;
 }
-
+ab
 
 .about-img{
     margin-left:5vh;
-    width: 30vw;
-    height: 50vh;
-    border-radius: 10%;
-    border: solid 5px;
+    width: 90vh;
+    border-radius: 30px 0px 30px 0px;
+    border: solid 3px rgb(209, 174, 225);
 }
 
 
