@@ -94,16 +94,19 @@ section{
 
 
 #about-header{
-    padding-left: 10vh;
-    padding-top:0vh;
+    margin-top: 100px;
+
+    width: fit-content;
+    color: rgba(103, 27, 138, 0.489);
+    background-color: rgba(255, 255, 255, 0.671);
 }
 #about-paragraph{
     
     padding-left: 2vh;
-    font-weight: 2vh;
-    font-size: 4vh;
+   
     font-family: Titillium;
-    color: rgb(127, 63, 187);
+    color: rgba(103, 27, 138, 0.489);
+    background-color: rgba(255, 255, 255, 0.671);
 }
 
 #parent{
@@ -111,7 +114,16 @@ section{
     display: flex;
     flex-direction: row;
 }
-ab
+#au
+{
+    
+    
+    background: url('images/au.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height:100%;
+
+}
 
 .about-img{
     margin-left:5vh;
