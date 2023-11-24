@@ -24,15 +24,16 @@ section{
     padding-top:1vh ;
     display: flex;
     justify-content: space-around;
-    align-items: centera;
-    
+    align-items: center;
     height:7vh;
 }
 #nav-bar a,#nav-bar h3{
     color:black;
     text-decoration: none;
-    height:5vh;
+    height:4vh;
     margin-right: 1vw;
+    padding: 1vh 1vh 1vh 1vh ;
+    border-radius: 2px;
 }
 #nav-bar a:hover{
     background-color:#8c90af ;
@@ -45,7 +46,7 @@ section{
 .colored{
     color:#8c90af;
     font-weight: bold;
-    display:inline;
+    
 }
 /* ---------naaavv------ */
 
@@ -69,9 +70,7 @@ section{
 #text{
     margin-bottom:10px;
 }
-#home-description{
-    /* padding-left: 10vw; */
-}
+
     
 #button{
     color:black;
@@ -83,7 +82,7 @@ section{
 #button:hover{
     background-color: #8c90af;
     color:white;
-    font-weight: bold;
+    
 }
 /* -----homeee------- */
 
@@ -95,12 +94,12 @@ section{
 
 #about-header{
     padding-left: 10vh;
-    padding-top:150vh;
+    padding-top:0vh;
 }
 #about-paragraph{
     display:flex;
     flex-wrap: wrap;
-    padding-top: 10vh;
+    padding-top: 0vh;
     margin-left: 2vh;
     width:50vw
 }
