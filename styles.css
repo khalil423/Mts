@@ -165,12 +165,13 @@ ul{
 #rules{
     
     background-image: url('images/silicon valley bg.png');
-    color: aliceblue;
+    color:  white;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255,0.5);
 
 }
 #my-exp{
-    
-    padding: 20px 20px 20px 20px;
+    padding: 100px;
     text-align: center;
 }
 
